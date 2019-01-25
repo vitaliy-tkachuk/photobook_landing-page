@@ -1,6 +1,6 @@
 {
   "name": "photobook_landing-page",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "description": "Responsive layout of landing page for Online Photobook Service",
   "main": "index.js",
   "scripts": {
