@@ -1,0 +1,313 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+  .s-advantage .make-your-photo-book {
+    left: -20px;
+  }
+
+  .s-terms-payment-shipping .make-your-photo-book {
+    left: 8px;
+  }
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+  h1,
+  .h1 {
+    font-size: 45px;
+    letter-spacing: 4px;
+  }
+  h2,
+  .h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #my-header {
+    height: 509px;
+  }
+  .site-header {
+    height: 447px;
+  }
+
+  .make-your-photo-book {
+    display: inline-block;
+    margin-top: 43px;
+    padding: 6px 14px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .header-composition {
+    width: 80%;
+  }
+
+  .steps > li {
+    &:after {
+      top: 50px;
+    }
+    .img {
+      width: 100px;
+      height: 100px;
+      line-height: 90px;
+    }
+    .caption {
+      font-size: 20px;
+    }
+  }
+
+  .advantage-composition {
+    width: 215px;
+    .soc-circle,
+    img {
+      width: 215px;
+      height: 215px;
+      line-height: 200px;
+    }
+
+    .soc-circle > img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+
+  .s-advantage .make-your-photo-book {
+    left: 0;
+  }
+
+  .price-composition > .price-box {
+    width: 235px;
+    min-height: 375px;
+    a {
+      font-size: 20px;
+      line-height: 60px;
+    }
+    .header {
+      font-size: 22px;
+      line-height: 22px;
+    }
+    .best-price {
+      width: 160px;
+      margin: 0 37.5px 0 37.5px;
+      border-bottom: 25px solid $accent-color;
+      top: 15px;
+      font-size: 16px;
+      line-height: 35px;
+    }
+
+    .the-plan {
+      padding-bottom: 40px;
+      ul > .plan-details {
+        font-size: 16px;
+        line-height: 20px;
+        &::before {
+          width: 18px;
+          height: 18px;
+        }
+      }
+      ul > .plan-price {
+        font-size: 40px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  .info-box-head,
+  .info-box-body {
+    width: 235px;
+  }
+
+  .info-box-head {
+    font-size: 32px;
+  }
+
+  .info-box-body {
+    p,
+    ul {
+      font-size: 14px;
+      &.red-bold {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+  header,
+  section {
+    padding: 40px 0;
+  }
+  h1,
+  .h1 {
+    font-size: 34px;
+    letter-spacing: 3px;
+  }
+  h2,
+  .h2 {
+    font-size: 18px;
+  }
+  .make-your-photo-book {
+    padding: 7px 16px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  #my-header {
+    height: 449px;
+  }
+  .site-header {
+    height: 387px;
+    .header-composition {
+      width: 80%;
+    }
+  }
+
+  .steps li {
+    &:after {
+      top: 40px;
+      border-top: 4px dashed $accent-color;
+    }
+    .img {
+      width: 80px;
+      height: 80px;
+      line-height: 70px;
+    }
+    .caption {
+      font-size: 18px;
+      width: 105px;
+      left: -15px;
+    }
+  }
+
+  .advantage-composition {
+    width: 80%;
+    margin: 40px auto 0 auto;
+  }
+
+  .price-composition {
+    margin: 40px 0 0 0;
+    .price-box {
+      margin: 0 auto 0 auto;
+      min-height: 315px;
+      .best-price {
+        width: 160px;
+        top: -5px;
+      }
+    }
+  }
+
+  .s-testimonials {
+    background: #f3f0e7;
+  }
+
+  .info-box-composition {
+    margin: 40px 0 0 0;
+    .info-box-head {
+      margin: 0 auto 0 auto;
+    }
+    .info-box-body {
+      margin: 0 auto 0 auto;
+    }
+  }
+
+  .s-terms-payment-shipping .make-your-photo-book {
+    left: 0;
+  }
+
+  .site-footer ul {
+    width: 100%;
+  }
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+  h1,
+  .h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  h2,
+  .h2 {
+    font-size: 16px;
+  }
+  .make-your-photo-book {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 6px 14px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  #my-header {
+    height: 395px;
+  }
+  .site-header {
+    height: 337px;
+  }
+
+  .header-composition {
+    width: 90%;
+  }
+
+  .s-steps {
+    width: 100%;
+    text-align: center;
+  }
+
+  .s-steps .steps {
+    display: inline-block;
+    left: -10%;
+    width: 100px;
+  }
+
+  .steps li {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .steps li:after {
+    width: 0;
+    height: 100%;
+    border-right: 4px dashed $accent-color;
+    top: 60px;
+    left: 40px;
+  }
+
+  .steps li .caption {
+    margin-left: 90px;
+    margin-top: -65px;
+  }
+}
+
+// ≥386px
+@media (max-width: 386px) {
+  .testimonials-composition {
+    .h2,
+    .h3 {
+      width: 320px;
+    }
+  }
+}
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+}

@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("pfagorasanspro-xthin", "../fonts/PfagorasansproXthin/PfagorasansproXthin");
+@include font-face("pfagorasanspro-thin", "../fonts/PfagorasansproThin/PfagorasansproThin");
+@include font-face("pfagorasanspro-light", "../fonts/PfagorasansproLight/PfagorasansproLight");
+@include font-face("pfagorasanspro-regular", "../fonts/PfagorasansproRegular/PfagorasansproRegular");
+@include font-face("pfagorasanspro-bold", "../fonts/PfagorasansproBold/PfagorasansproBold");
